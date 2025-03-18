@@ -1,7 +1,7 @@
-﻿using GFI.Application.Identity.Users;
-using GFI.Domain.FinancialManagement.Budgets;
+﻿using GFI.Domain.FinancialManagement.Budgets;
 using GFI.Domain.FinancialManagement.FinancialTransactions;
 using GFI.Domain.FinancialManagement.ReasonsForFinancialTransactions;
+using GFI.Domain.Identity.Users;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

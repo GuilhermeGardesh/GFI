@@ -2,6 +2,7 @@
 {
     public enum Periodicity
     {
+        unique,
         AtSight,
         SWeekly,
         Monthly,

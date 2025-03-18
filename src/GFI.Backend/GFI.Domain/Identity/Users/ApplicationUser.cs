@@ -3,7 +3,7 @@ using GFI.Domain.Commom.Entities;
 using GFI.Domain.Commom.Enums;
 using GFI.Domain.FinancialManagement.Budgets;
 
-namespace GFI.Application.Identity.Users
+namespace GFI.Domain.Identity.Users
 {
     public class ApplicationUser : IdentityUser
     {
@@ -34,7 +34,7 @@ namespace GFI.Application.Identity.Users
         public bool IsActive { get; private set; } = default!;
         public UserPreferences Preferences { get; private set; } = default!;
         public Person Person { get; private set; } = default!;
-        public List<Budget> Budgets { get; set; }
+        public List<Budget> Budgets { get; set; } = default!;
     }
 
     public class UserPreferences

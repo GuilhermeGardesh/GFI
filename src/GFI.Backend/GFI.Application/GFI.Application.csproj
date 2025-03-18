@@ -7,11 +7,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="FinancialManagement\FinancialTransactions\" />
-		<Folder Include="FinancialManagement\TransactionTypes\" />
-		<Folder Include="FinancialManagement\PaymentMethods\" />
-		<Folder Include="FinancialManagement\ReasonsForFinancialTransactions\" />
-		<Folder Include="Identity\Users\" />
 		<Folder Include="Migrations\" />
 	</ItemGroup>
 
